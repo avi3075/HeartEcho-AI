@@ -55,10 +55,6 @@ if ctx.audio_processor:
             f.write(ctx.audio_processor.buffer)
             f.seek(0)
             try:
-                y, sr = sf.read(f.name)
-                if len(y) > sr * 5:
-                    y = y[:sr * 5]
-
                 features = process_audio(f.name)
 
                 if use_model:
