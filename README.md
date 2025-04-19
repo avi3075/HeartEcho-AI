@@ -1,0 +1,1 @@
+# HeartEcho AI – Real-Time Mic Version\n\nThis version supports live heart sound recording using microphone on Streamlit.\nVisit https://streamlit.io/cloud to deploy easily.\n\nInstall: pip install -r requirements.txt\nRun: streamlit run streamlit_app.py

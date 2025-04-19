@@ -5,3 +5,5 @@ librosa
 soundfile
 numpy
 scikit-learn
+av
+streamlit-webrtc
